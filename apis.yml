@@ -1,0 +1,86 @@
+aid: ellevest
+name: Ellevest
+description: >-
+  Ellevest is a women-founded, women-led wealth management and financial
+  planning firm dedicated to closing the gender wealth gap. The platform
+  delivers personalized investment management and comprehensive financial
+  planning for high-net-worth individuals, families, and institutions,
+  with services including portfolio management, retirement and estate
+  planning, tax strategy, and cash flow analysis. Ellevest leverages
+  REST-based internal APIs for portfolio management, financial coaching,
+  banking operations, and personalized investment goal tracking, with
+  third-party account connectivity available through Open Banking
+  aggregators such as Plaid.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Financial Services
+  - Wealth Management
+  - Investing
+  - Financial Planning
+  - Women Finance
+  - Robo-Advisory
+  - Portfolio Management
+apis:
+  - name: Ellevest Wealth Management API
+    description: >-
+      REST APIs powering Ellevest's wealth management platform, including
+      portfolio management, financial goal tracking, investment account
+      operations, financial coaching scheduling, and personalized financial
+      planning for high-net-worth clients. Third-party data access is available
+      through Open Banking aggregators such as Plaid.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.ellevest.com/
+    baseURL: https://api.ellevest.com
+    tags:
+      - Wealth Management
+      - Portfolio Management
+      - Financial Planning
+      - Investing
+      - Goal Tracking
+    properties:
+      - type: Documentation
+        url: https://www.ellevest.com/
+      - type: OpenBanking
+        url: https://www.openbankingtracker.com/provider/ellevest
+      - type: Plans
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/plans/ellevest-plans-pricing.yml
+      - type: RateLimits
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/rate-limits/ellevest-rate-limits.yml
+      - type: FinOps
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/finops/ellevest-finops.yml
+common:
+  - type: Website
+    url: https://www.ellevest.com/
+  - type: Documentation
+    url: https://www.ellevest.com/
+  - type: GitHubOrg
+    url: https://github.com/Ellevest
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ellevest
+  - type: Blog
+    url: https://www.ellevest.com/magazine
+  - type: Pricing
+    url: https://www.ellevest.com/wealth-management
+  - type: StatusPage
+    url: https://www.ellevest.com/
+  - type: X
+    url: https://x.com/ellevest
+  - type: Plans
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/plans/ellevest-plans-pricing.yml
+  - type: RateLimits
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/rate-limits/ellevest-rate-limits.yml
+  - type: FinOps
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/finops/ellevest-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

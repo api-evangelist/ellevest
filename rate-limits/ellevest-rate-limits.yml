@@ -1,0 +1,40 @@
+name: Ellevest Rate Limits
+description: >-
+  Ellevest does not publish a public developer API with documented rate
+  limits. The platform operates as a consumer-facing wealth management and
+  financial planning service. Third-party programmatic access to Ellevest
+  account data is facilitated through Open Banking aggregators such as
+  Plaid, which manage their own authentication, rate limiting, and
+  compliance requirements on behalf of clients who grant consent.
+  Any internal API rate limits are governed by Ellevest's terms of
+  service and are not publicly disclosed.
+url: https://www.ellevest.com/terms-of-service
+rateLimits:
+  - name: Public API Rate Limits
+    description: >-
+      Ellevest does not expose a public developer API with published rate
+      limits. No rate limit documentation is publicly available.
+    documented: false
+    notes: >-
+      Developers seeking to access Ellevest account data programmatically
+      should integrate via Open Banking aggregators such as Plaid
+      (https://plaid.com), which provide pre-built connections to Ellevest
+      and handle authentication, data normalization, rate limiting, and
+      regulatory compliance.
+
+  - name: Open Banking Aggregator Access
+    description: >-
+      Account balance, transaction history, and account holder data from
+      Ellevest accounts may be accessible through third-party Open Banking
+      aggregators. Rate limits are determined by the aggregator platform.
+    documented: false
+    aggregators:
+      - name: Plaid
+        url: https://plaid.com/docs/
+      - name: Tink
+        url: https://docs.tink.com/
+      - name: TrueLayer
+        url: https://docs.truelayer.com/
+    notes: >-
+      All access via aggregators requires explicit customer consent under
+      open banking frameworks.

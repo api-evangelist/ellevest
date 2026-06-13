@@ -1,0 +1,69 @@
+name: Ellevest Plans and Pricing
+description: >-
+  Ellevest offers wealth management and financial planning services with
+  fee structures based on assets under management (AUM) for investment
+  management clients, and flat-fee packages for standalone financial
+  planning engagements. Following the February 2025 transfer of automated
+  investing accounts to Betterment, Ellevest focuses exclusively on
+  high-net-worth wealth management and financial planning services.
+url: https://www.ellevest.com/wealth-management
+plans:
+  - name: Wealth Management
+    description: >-
+      Full-service wealth management for individuals, families, and
+      institutions. Includes personalized portfolio management, dedicated
+      advisor team, retirement and estate planning, tax strategy
+      coordination, annual reviews, and access to alternative investments.
+      Requires a minimum of $500,000 in investable assets. Assets are
+      custodied at Charles Schwab & Co.
+    minimum: 500000
+    minimumCurrency: USD
+    minimumLabel: Minimum Investment
+    fees:
+      - tier: Under $1,000,000
+        rate: 1.25%
+        basis: AUM annually
+      - tier: $1,000,000 - $5,000,000
+        rate: Declining tiered rate
+        basis: AUM annually
+      - tier: $5,000,000 - $100,000,000+
+        rate: 0.35%
+        basis: AUM annually
+    features:
+      - Personalized investment portfolio (stocks, bonds, ETFs, mutual funds)
+      - Alternative investments (private non-traded funds, hedge funds)
+      - Impact investing options (climate, affordable housing, healthcare)
+      - Dedicated all-women advisor team
+      - Annual financial review
+      - Retirement and estate planning
+      - Tax strategy coordination
+      - Cash flow and budget analysis
+      - In-person, video, phone, and email access to advisors
+    url: https://www.ellevest.com/wealth-management
+
+  - name: Financial Planning
+    description: >-
+      Standalone financial planning engagements available as flat-fee
+      packages. Suitable for clients who want expert guidance without
+      discretionary investment management. Packages vary in scope and
+      number of advisor sessions.
+    fees:
+      - tier: Entry-level package
+        rate: '$500'
+        basis: flat fee
+      - tier: Comprehensive package
+        rate: '$3,600+'
+        basis: flat fee per year
+      - tier: Full package with unlimited access
+        rate: '$4,000+'
+        basis: flat fee
+    features:
+      - One or more 1:1 advisor sessions
+      - Written financial plan
+      - Retirement planning analysis
+      - Estate planning guidance
+      - Tax strategy review
+      - Equity compensation guidance
+      - Divorce financial planning
+      - Inheritance planning
+    url: https://www.ellevest.com/financial-planning

@@ -1,0 +1,55 @@
+name: Ellevest FinOps
+description: >-
+  Financial operations context for Ellevest's wealth management and
+  financial planning platform. Ellevest does not offer a consumption-based
+  API product with metered billing. Cost structures are based on
+  assets under management (AUM) fee schedules for wealth management
+  clients and flat-fee packages for standalone financial planning
+  engagements. There are no API call charges, data transfer fees, or
+  usage-based billing components.
+url: https://www.ellevest.com/wealth-management
+finops:
+  billingModel: AUM-fee and flat-fee (no API usage-based billing)
+  apiUsageBilling: false
+  freeTier: false
+  freeTrialAvailable: false
+
+  costDrivers:
+    - name: Assets Under Management Fee
+      description: >-
+        Annual advisory fee calculated as a percentage of total assets
+        managed by Ellevest. Fee declines at higher asset tiers.
+        Primary cost driver for wealth management clients.
+      type: AUM-based
+      rateRange: '0.35% – 1.25% annually'
+      minimumAssets: '$500,000'
+
+    - name: Financial Planning Package Fees
+      description: >-
+        Flat-fee engagements for standalone financial planning services
+        not tied to investment management. Packages range from
+        single-session to comprehensive year-round access.
+      type: flat-fee
+      rateRange: '$500 – $4,000+'
+      billingFrequency: per engagement or annual
+
+  costOptimizationTips:
+    - description: >-
+        Consolidate investable assets above $1M to benefit from declining
+        AUM fee tiers, reducing the blended advisory rate.
+    - description: >-
+        Evaluate standalone financial planning packages for specific
+        life events (divorce, inheritance, equity compensation) rather
+        than full wealth management if assets are below the $500K minimum.
+    - description: >-
+        Third-party Open Banking aggregators such as Plaid handle
+        connectivity fees independently; review aggregator pricing
+        separately when building financial applications that access
+        Ellevest account data.
+
+  notes: >-
+    Ellevest transferred its automated investing (robo-advisor) business
+    to Betterment in February 2025. The former membership pricing tiers
+    (Basic $12/month, Plus $17/month, Executive $26/month) are no longer
+    offered. Current pricing applies only to high-net-worth wealth
+    management and financial planning services.
