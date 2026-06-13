@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ellevest",
+  "url": "https://www.ellevest.com/",
+  "description": "Ellevest is a women-founded, women-led wealth management and financial planning firm dedicated to closing the gender wealth gap. The platform delivers personalized investment management and comprehensive financial planning for high-net-worth individuals, families, and institutions.",
+  "sameAs": [
+    "https://www.linkedin.com/company/ellevest",
+    "https://x.com/ellevest",
+    "https://github.com/Ellevest"
+  ],
+  "foundingDate": "2014",
+  "knowsAbout": [
+    "Wealth Management",
+    "Financial Planning",
+    "Portfolio Management",
+    "Investment Management",
+    "Retirement Planning",
+    "Estate Planning",
+    "Tax Strategy",
+    "Financial Coaching"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Ellevest Wealth Management Services",
+    "url": "https://www.ellevest.com/wealth-management"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://www.ellevest.com/"
+  }
+}
