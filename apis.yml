@@ -11,7 +11,7 @@ description: >-
   banking operations, and personalized investment goal tracking, with
   third-party account connectivity available through Open Banking
   aggregators such as Plaid.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -32,7 +32,7 @@ apis:
       operations, financial coaching scheduling, and personalized financial
       planning for high-net-worth clients. Third-party data access is available
       through Open Banking aggregators such as Plaid.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.ellevest.com/
     baseURL: https://api.ellevest.com
     tags:
