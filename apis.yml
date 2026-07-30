@@ -11,7 +11,19 @@ description: >-
   banking operations, and personalized investment goal tracking, with
   third-party account connectivity available through Open Banking
   aggregators such as Plaid.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ellevest.png
 url: https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
