@@ -29,6 +29,14 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
+  - Financial-Services
+  - Wealth Management
+  - Investing
+  - Financial Planning
+  - Women Finance
+  - Robo-Advisory
+  - Portfolio-Management
+tags_raw:
   - Financial Services
   - Wealth Management
   - Investing
@@ -48,6 +56,12 @@ apis:
     humanURL: https://www.ellevest.com/
     baseURL: https://api.ellevest.com
     tags:
+      - Wealth Management
+      - Portfolio-Management
+      - Financial Planning
+      - Investing
+      - Goal Tracking
+    tags_raw:
       - Wealth Management
       - Portfolio Management
       - Financial Planning
