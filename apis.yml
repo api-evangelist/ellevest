@@ -40,13 +40,13 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
-  - Financial-Services
+  - Financial Services
   - Wealth Management
   - Investing
   - Financial Planning
   - Women Finance
   - Robo-Advisory
-  - Portfolio-Management
+  - Portfolio Management
 tags_raw:
   - Financial Services
   - Wealth Management
@@ -55,6 +55,8 @@ tags_raw:
   - Women Finance
   - Robo-Advisory
   - Portfolio Management
+  - Financial-Services
+  - Portfolio-Management
 apis:
   - name: Ellevest Wealth Management API
     description: >-
@@ -68,7 +70,7 @@ apis:
     baseURL: https://api.ellevest.com
     tags:
       - Wealth Management
-      - Portfolio-Management
+      - Portfolio Management
       - Financial Planning
       - Investing
       - Goal Tracking
@@ -78,6 +80,7 @@ apis:
       - Financial Planning
       - Investing
       - Goal Tracking
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://www.ellevest.com/
