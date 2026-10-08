@@ -71,3 +71,21 @@ plans:
       - Divorce financial planning
       - Inheritance planning
     url: https://www.ellevest.com/financial-planning
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Wealth Management
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Financial Planning
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
