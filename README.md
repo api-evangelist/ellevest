@@ -64,23 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ellevest is a women-founded, women-led wealth management and financial planning firm headquartered in New York City, dedicated to closing the gender wealth gap. Founded in 2014 by Sallie Krawcheck and Charlie Kroll, the company provides personalized investment management and comprehensive financial planning services for high-net-worth individuals, families, and institutions.
+Ellevest is a women-founded, women-led wealth management and financial planning firm dedicated to closing the gender wealth gap. The platform delivers personalized investment management and comprehensive financial planning for high-net-worth individuals, families, and institutions, with services including portfolio management, retirement and estate planning, tax strategy, and cash flow analysis. Ellevest leverages REST-based internal APIs for portfolio management, financial coaching, banking operations, and personalized investment goal tracking, with third-party account connectivity available through Open Banking aggregators such as Plaid.
 
-Following the February 2025 transfer of its automated investing accounts to Betterment, Ellevest focuses exclusively on wealth management for clients with $500,000 or more in investable assets, and standalone financial planning engagements.
+**Areas:** Financial Services · Wealth Management · Investing · Financial Planning · Women Finance · Robo-Advisory · Portfolio Management
 
-**Links:**
+## Ellevest on APIs.io
+
+Everything profiled for Ellevest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ellevest/](https://apis.io/providers/ellevest/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ellevest Wealth Management API](https://apis.io/apis/ellevest/ellevest-wealth-management-api/) — REST APIs powering Ellevest's wealth management platform, including portfolio management, financial goal tracking, investment account operations, financial…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ellevest Domain Security](https://apis.io/security/ellevest/ellevest-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ellevest Plans Pricing](https://apis.io/plans/ellevest/ellevest-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ellevest Rate Limits](https://apis.io/rate-limits/ellevest/ellevest-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ellevest Finops](https://apis.io/finops/ellevest/ellevest-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.ellevest.com/)
-- [Blog / Ellevest Magazine](https://www.ellevest.com/magazine)
-- [LinkedIn](https://www.linkedin.com/company/ellevest)
-- [X / Twitter](https://x.com/ellevest)
-- [GitHub](https://github.com/Ellevest)
+- [Documentation](https://www.ellevest.com/)
 - [Pricing](https://www.ellevest.com/wealth-management)
-- [Help Center](https://support.ellevest.com/hc/en-us)
+- [Blog](https://www.ellevest.com/magazine)
+- [Status](https://www.ellevest.com/)
 
-**API Evangelist Links:**
+## API Evangelist rating
 
-- [APIs.json](apis.yml)
-- [Plans & Pricing](plans/ellevest-plans-pricing.yml)
-- [Rate Limits](rate-limits/ellevest-rate-limits.yml)
-- [FinOps](finops/ellevest-finops.yml)
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ellevest/](https://apis.io/providers/ellevest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ellevest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ellevest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
